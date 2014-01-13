@@ -1,0 +1,9 @@
+#!/usr/local/bin/bash
+#WHERE=$1
+cd `whereis -sq $1`
+exec bash
+
+# Usage 
+# # cd_to_port irssi
+# # make install clean
+# cd - Does not work after running cd_to_port though
